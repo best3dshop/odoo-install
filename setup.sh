@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt update && apt upgrade -y && apt install npm -y && apt install cural -y && apt install -y docker-compose
+sudo apt update && apt upgrade -y && apt install npm -y && apt install curl -y && apt install -y docker-compose
 # Install Docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
